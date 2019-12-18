@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.full-width, .op-btn-container {
+	width: 92%;
+	padding: 0 4%;
+}
+
+.half-width {
+	width: 45%;
+	display: inline-block;
+	padding: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+.app-title {
+	margin-top: 15vh;
+	font-size: 10vh;
+	color: rgb(121, 206, 161);
+}
+
+.s1-inputs-container {
+	margin-top: 10vh;
+}
+
+.s1-inputs {
+	padding: 5px 20px;
+}
+
+.el-stack {
+	margin-top: 20vh;
+}
+
+.el-eqseparator,
+.el-pfresult {
+	font-size: 12vh;
+}
+
+.el-pfresult {
+	color: rgb(121, 206, 161);
+	font-weight: 100;
+}
+
+.itemcard {
+	padding: 18px;
+	margin: 2px;
+	background: rgb(236, 245, 247);
+	text-align: center;
+	display: inline-block;
+}
+
+footer {
+	width: 98%;
+	position: absolute;
+	bottom: 2vh;
+}
+
+.pf-btn {
+	padding: 16px !important;
+	margin: 18px;
+}
+
+@media(min-width: 700px) {
+	.s1-inputs {
+		width: 35%;
+		display: inline-flex;
+		padding: 18px 3px !important;
+	}
+
+	.op-btn-container {
+		width: 25%;
+		padding: 0;
+		display: inline-flex;
+	}
+
+	.op-container .half-width {
+		width: 50%;
+		display: inline-flex;
+	}
+
+	.op-container {
+		width: 50%;
+		display: inline-flex;
+	}
+}
